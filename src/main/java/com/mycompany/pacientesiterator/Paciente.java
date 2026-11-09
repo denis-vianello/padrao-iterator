@@ -1,0 +1,34 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.pacientesiterator;
+
+/**
+ *
+ * @author PICHAU
+ */
+public class Paciente {
+
+    private String nome;
+    private String cpf;
+    private int idade;
+
+    public Paciente(String nome, String cpf, int idade) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.idade = idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+}
